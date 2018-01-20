@@ -12,7 +12,7 @@
         <div class="message">
           <div id="end_div"></div>
           <div v-for="message in chat" :class="{ text_right: message.me, text_left: !message.me }">
-            <div><strong>{{ message.me ? "Yo" : "Robot" }}</strong> {{ message.time }}</div>
+            <div><strong>{{ message.me ? "Yo" : "Watson" }}</strong> {{ message.time }}</div>
             <p>{{ message.text }}</p>
           </div>
         </div>
