@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <div id="titles">
+      <h1>ASISTENTE DE POSGRADOS</h1>
+      <h2>DEPARTAMENTO DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN</h2>
+    </div>  
+    <div id="welcome">
+      <br>Bienvenido, ¿en qué puedo ayudarle?</br>
+    </div>
     <div id="wrapper">
       <div id="messages_container">
         <div class="message">
@@ -73,6 +80,13 @@ function formatDate (date) {
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
+  }
+  
+  #titles{
+    text-align: center;
+  }
+  #welcome{
+    text-align: right;
   }
 
   #wrapper {
