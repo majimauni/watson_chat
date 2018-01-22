@@ -86,7 +86,8 @@ function formatDate (date) {
     text-align: center;
   }
   #welcome{
-    text-align: right;
+    text-align: left;
+    padding: 20px;
   }
 
   #wrapper {
